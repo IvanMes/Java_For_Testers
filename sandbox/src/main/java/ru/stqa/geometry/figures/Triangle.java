@@ -1,14 +1,15 @@
 package ru.stqa.geometry.figures;
 
-public class Triangle {
+import static java.lang.Math.sqrt;
 
-    public static void printTrianglePerimeter(double a, double b, double c){
-        String text = String.format("Площадь треугольника со сторонами %f, %f и %f = %f", a, b, c);
-        System.out.println(text);
-    }
+public record Triangle(double a, double b, double c) {
+    public double perimeter() {
+        return (this.a + this.b + this.c);
 
-    public static double area(double a, double b, double c) {
-        return a * a;
+    };
+    public double area() {
+        var p = ((this.a + this.b + this.c) * 0.5);
+        return sqrt(p * (p - this.c) * (p - this.b) * (p - this.a));
     }
 
 }
