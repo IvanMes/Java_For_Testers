@@ -68,7 +68,7 @@
       <recent name="Rectangle" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SquareTest.canCalculatePerimeter">
+  <component name="RunManager" selected="Gradle.SquareTest.canCalculateArea">
     <configuration name="Geometry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.stqa.geometry.Geometry" />
       <module name="sandbox.main" />
@@ -82,6 +82,30 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="SquareTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/sandbox" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.stqa.geometry.figures.SquareTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
     <configuration name="SquareTest.canCalculateArea" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -133,8 +157,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SquareTest.canCalculatePerimeter" />
         <item itemvalue="Gradle.SquareTest.canCalculateArea" />
+        <item itemvalue="Gradle.SquareTest" />
+        <item itemvalue="Gradle.SquareTest.canCalculatePerimeter" />
         <item itemvalue="Application.Geometry" />
         <item itemvalue="Application.Hello" />
       </list>
@@ -163,20 +188,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создан проект в Idea" />
     <option name="LAST_COMMIT_MESSAGE" value="Создан проект в Idea" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/geometry/figures/SquareTest.java</url>
-          <line>8</line>
-          <properties class="ru.stqa.geometry.figures.SquareTest" method="canCalculateArea">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
