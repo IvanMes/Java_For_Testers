@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebaf6221-ce06-468a-9f0c-a3ecde3471df" name="Changes" comment="Создан проект в Idea">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook_web_tests/src/test/java/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook_web_tests/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook_web_tests/src/test/java/GroupCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook_web_tests/src/test/java/GroupCreationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/src/test/java/GroupsRemovalTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook_web_tests/src/test/java/GroupsRemovalTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +30,9 @@
     <system id="GRADLE">
       <state>
         <task path="$PROJECT_DIR$/sandbox">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/addressbook_web_tests">
           <activation />
         </task>
         <projects_view>
@@ -87,7 +90,7 @@
       <recent name="Rectangle" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GroupsRemovalTests.groupsRemovalTest">
+  <component name="RunManager" selected="Gradle.Tests in 'addressbook_web_tests.test'">
     <configuration name="GroupCreationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -102,30 +105,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;GroupCreationTests&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="GroupCreationTests.newName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/addressbook_web_tests" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;GroupCreationTests.newName&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -208,13 +187,35 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="Tests in 'addressbook_web_tests.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/addressbook_web_tests" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Tests in 'addressbook_web_tests.test'" />
         <item itemvalue="Gradle.GroupsRemovalTests.groupsRemovalTest" />
         <item itemvalue="Gradle.GroupsRemovalTests.groupsRemovalTests" />
         <item itemvalue="Gradle.GroupsRemovalTests" />
         <item itemvalue="Gradle.GroupCreationTests" />
-        <item itemvalue="Gradle.GroupCreationTests.newName" />
       </list>
     </recent_temporary>
   </component>
